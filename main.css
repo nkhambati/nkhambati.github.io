@@ -1,0 +1,39 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #ffffff;
+}
+
+/*--- background ---*/
+.header {
+	background-image: url('images/Home.png');
+	/*background-size: cover;*/
+	background-size: 60%, auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+}
+
+/*--- navigation bar ---*/
+.navbar {
+	color:#fff;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border-top:2px solid #000;
+}
+.nav-link,
+.navbar-brand {
+	color: #000;
+	cursor: pointer;
+}
+.nav-link {
+	margin-right: 1em !important;
+}
+.nav-link:hover {
+	color: #bbb;
+}
+.navbar-collapse {
+	justify-content: flex-end;
+}
