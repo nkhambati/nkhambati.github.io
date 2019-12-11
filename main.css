@@ -32,10 +32,6 @@ body {
 	margin-right: 1em !important;
 }
 
-.nav-link-left {
-	text-align: left;
-}
-
 .nav-link:hover {
 	color: #bbb;
 }
@@ -59,4 +55,19 @@ body {
 html, body {
 	max-width: 100%;
 	overflow-x: hidden;
+}
+
+.iframeContainer {
+  overflow: hidden;
+  padding-top: 50.75%;
+  position: relative;
+}
+ 
+.iframeContainer iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
