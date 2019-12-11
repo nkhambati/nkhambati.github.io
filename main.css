@@ -7,8 +7,7 @@ body {
 /*--- background ---*/
 .header {
 	background-image: url('images/Home.png');
-	/*background-size: cover;*/
-	background-size: 55%, auto;
+	background-size: 50%, auto;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
